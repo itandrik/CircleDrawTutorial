@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main colors -->
+    <color name="colorPrimary">#1E96F3</color>
+    <color name="colorPrimaryDark">#0B79CD</color>
+    <color name="colorAccent">#fbd228</color>
+
+    <color name="location_text">#ffffff</color>
+    <color name="shader_background">#000000</color>
+    <color name="namaz_button_background">#ffffff</color>
+    <color name="namaz_1_time_text">#ffffff</color>
+    <color name="namaz_1_show_all_button_background">#fbd228</color>
+    <color name="namaz_1_show_all_button_text">#969807</color>
+    <color name="namaz_2_time_text">#ffffff</color>
+    <color name="namaz_2_show_all_button_background">#fbff29</color>
+    <color name="namaz_2_show_all_button_text">#bcbf0d</color>
+    <color name="namaz_3_time_text">#ffffff</color>
+    <color name="namaz_3_show_all_button_background">#4b260d</color>
+    <color name="namaz_3_show_all_button_text">#ffffff</color>
+    <color name="namaz_4_time_text">#e3e1e1</color>
+    <color name="namaz_4_show_all_button_background">#55442b</color>
+    <color name="namaz_4_show_all_button_text">#ffffff</color>
+    <color name="namaz_5_time_text">#ffffff</color>
+    <color name="namaz_5_show_all_button_background">#9c8ece</color>
+    <color name="namaz_5_show_all_button_text">#ffffff</color>
+    <color name="namaz_upcoming_background">#4596f8</color>
+    <color name="namaz_upcoming_text">#ffffff</color>
+    <color name="namaz_soon_background">#f92f4b</color>
+    <color name="namaz_soon_text">#ffffff</color>
+    <color name="namaz_now_background">#1de02c</color>
+    <color name="namaz_now_text">#ffffff</color>
+    <color name="show_all_panel_background">#ffffff</color>
+    <color name="show_all_panel_separator">#f4f3f3</color>
+    <color name="counter_background">#1e2832</color>
+    <color name="counter_text">#ffffff</color>
+    <color name="compass_text">#ffffff</color>
+    <color name="kaaba_text">#ffffff</color>
+
+    <color name="textPrimary">#212121</color>
+    <color name="textWhite">#ffffff</color>
+    <color name="textSecondary">#727272</color>
+    <color name="textBlue">#4596f8</color>
+    <color name="darkBlue">#358efa</color>
+    <color name="textRed">#f92f4b</color>
+    <color name="textGreen">#1de02c</color>
+    <color name="buttonsBackground">#b9b9b9</color>
+    <color name="sliderLineGray">#F0EDED</color>
+
+    <!--Counter-->
+    <color name="datepickerBackground">#ffffff</color>
+    <color name="datepickerText">#000000</color>
+    <color name="datepickerSelectedValue">#3770e4</color>
+    <color name="datepickerSelectedValueShadow">#ffffff</color>
+    <color name="datapickerGradientStart">#55000000</color>
+    <color name="datapickerSelectedValueeLineG1">#22ffffff</color>
+    <color name="datapickerSelectedValueeLineG2">#227d98ff</color>
+    <color name="datapickerSelectedValueeLineG3">#336585ff</color>
+    <color name="datapickerSelectedValueeLineG4">#336d8dff</color>
+    <color name="datapicketSelectedValueBorder">#9a9da4</color>
+    <color name="datapicketSelectedBorderTop">#f8fcff</color>
+    <color name="datapicketSelectedBorderBttom">#a1a7bf</color>
+    <color name="datapickerBlackLines">#000000</color>
+    <color name="datapickerGrayLines">#cfcdd8</color>
+
+    <color name="yellow">#ffc600</color>
+    <color name="purple">#7030a1</color>
+    <color name="white">#ffffff</color>
+    <color name="blue_dark">#1e2832</color>
+
+    <!--Loading cities dialog-->
+    <color name="loading_dialog_stroke">#EEEEEE</color>
+    <color name="loading_dialog_solid">#263238</color>
+    <color name="button_background">#EEEEEE</color>
+
+    <!-- View pager indicator colors -->
+    <color name="indicator_disabled">#5C727272</color>
+    <color name="indicator_enabled">#5Cffffff</color>
+
+    <!-- Compass hint color -->
+    <color name="compass_hint_background">#C0727272</color>
+
+    <!-- Calendar activity colors -->
+    <color name="calendar_footer_text">#1D81F5</color>
+    <color name="calendar_odd_background">#0C000000</color>
+    <color name="calendar_pair_background">#0CFFFFFF</color>
+    <color name="toolbar_back_mode_background">#CC000000</color>
+    <color name="content_back_mode_background">#5C000000</color>
+    <color name="text_back_mode">#D2D2D2</color>
+
+    <!-- settings colors -->
+    <color name="transparent">#00ffffff</color>
+    <color name="dialog_button_text">#2196F3</color>
+    <color name="salawat_settings_link">#4DA4D9</color>
+
+    <!-- Counter colors -->
+    <color name="counter_center_element">#1E2832</color>
+    <color name="counter_outside_center_element">#24303B</color>
+    <color name="bead_1">#ffc600</color>
+    <color name="bead_2">#F1725E</color>
+    <color name="bead_3">#A079B3</color>
+    <color name="bead_4">#9AD5C1</color>
+    <color name="bead_5">#FAF7C4</color>
+
+    <!-- settings -->
+    <color name="settings_divider_color">#E2E2E2</color>
+    <color name="settings_category_text_color">#2C9CF3</color>
+    <color name="settings_dst_button_disabled_color">#dadada</color>
+
+    <!-- Al Kahf -->
+    <color name="al_kahf_hide_facebook">#1F4788</color>
+
+    <!-- Widget -->
+    <color name="widget_background">#8F02A8F3</color>
+
+    <!-- Tahajjud -->
+    <color name="tahajjud_background_color">#1C242F</color>
+    <color name="tahajjud_sweep_gradient_1">#00ffffff</color>
+    <color name="tahajjud_sweep_gradient_2">#D32A88</color>
+    <color name="tahajjud_sweep_gradient_3">#8B2FB4</color>
+    <color name="tahajjud_center_circle_bg">#2A3543</color>
+    <color name="tahajjud_center_shadow_light">#3E4753</color>
+    <color name="tahajjud_center_shadow_dark">#232C37</color>
+    <color name="tahajjud_indicator_background">#181F29</color>
+    <color name="tahajjud_time_separator_line">#495059</color>
+    <color name="tahajjud_text">#A0A0AE</color>
+    <color name="tahajjud_clock_bg">#FA2A87</color>
+    <color name="tahajjud_sound_background_activated">#F92B87</color>
+    <color name="tahajjud_sound_divider">#646672</color>
+    <color name="tahajjud_sound_text_not_activated">#45464b</color>
+    <color name="tahajjud_sound_text_activated">#ffffff</color>
+</resources>

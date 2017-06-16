@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TahajjudTutorial</string>
+
+   <!-- <string-array name="tahajjud_sounds">
+        <item>Bird song</item>
+        <item>Rooster</item>
+        <item>Bells</item>
+        &lt;!&ndash;<item>Adhan</item>&ndash;&gt;
+    </string-array>-->
+
+
+
+
+    <string name="tahajjud_sound_1">Bird song</string>
+    <string name="tahajjud_sound_2">Rooster</string>
+    <string name="tahajjud_sound_3">Bells</string>
+    <string name="tahajjud_sound_4">Adhan</string>
+</resources>

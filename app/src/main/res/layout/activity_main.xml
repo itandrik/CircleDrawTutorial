@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tahajjud_background_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tahajjud_waves" />
+
+    <RelativeLayout
+        android:id="@+id/tahajjudHeaderContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="top|left"
+            android:padding="8dp"
+            android:src="@mipmap/menu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="8dp"
+            android:text="Wake-up for Tahajjud"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switchTahajjudSound"
+            style="@style/TahajjudSwitchStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:longClickable="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTahajjudTimeLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tahajjudHeaderContainer"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="in 1h 23 min"
+        android:textColor="@color/tahajjud_text" />
+
+    <com.example.tahajjudtutorial.TahajjudClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTahajjudTimeLeft"
+        android:layout_centerInParent="true" />
+
+    <View
+        android:id="@+id/soundHiderView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llTahajjudSoundContainer"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_tahajjud_sound_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <CheckedTextView
+            android:id="@+id/chTvTahajjudSound1"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:background="@drawable/tahajjud_sound_checked_tv_bg_top"
+            android:drawableLeft="@drawable/tahajjud_check_selector"
+            android:gravity="center"
+            android:text="@string/tahajjud_sound_1"
+            android:textColor="@drawable/tahajjud_sound_checked_tv_text" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/tahajjud_sound_divider" />
+
+        <CheckedTextView
+            android:id="@+id/chTvTahajjudSound2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/tahajjud_sound_checked_tv_bg"
+            android:drawableLeft="@drawable/tahajjud_check_selector"
+            android:gravity="center"
+            android:text="@string/tahajjud_sound_2"
+            android:textColor="@drawable/tahajjud_sound_checked_tv_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/tahajjud_sound_divider" />
+
+        <CheckedTextView
+            android:id="@+id/chTvTahajjudSound3"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/tahajjud_sound_checked_tv_bg"
+            android:drawableLeft="@drawable/tahajjud_check_selector"
+            android:gravity="center"
+            android:text="@string/tahajjud_sound_3"
+            android:textColor="@drawable/tahajjud_sound_checked_tv_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/tahajjud_sound_divider" />
+
+        <CheckedTextView
+            android:id="@+id/chTvTahajjudSound4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tahajjud_sound_checked_tv_bg_bottom"
+            android:drawableLeft="@drawable/tahajjud_check_selector"
+            android:gravity="center"
+            android:text="@string/tahajjud_sound_4"
+            android:textColor="@drawable/tahajjud_sound_checked_tv_text" />
+    </LinearLayout>
+
+
+</RelativeLayout>
